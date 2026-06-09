@@ -1,5 +1,5 @@
 {
-  "name": "frontend-project-44",
+  "name": "@hexlet/code",
   "version": "1.2.0",
   "description": "Brain Games — обучающие игры в терминале",
   "main": "bin/brain-games",
