@@ -38,6 +38,5 @@
   "homepage": "https://github.com/ssamandar098-gif/frontend-project-44#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
-  },
-  " "
-}
+  }
+} 
