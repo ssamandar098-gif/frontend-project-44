@@ -3,6 +3,9 @@
 // console.log("Welcome to the Brain Games!");
 
 
-import { greet } from '../src/cli.js';
 
-greet();
+
+import { runGame } from '../src/index.js';
+import * as even from '../games/even.js';
+
+runGame(even);
