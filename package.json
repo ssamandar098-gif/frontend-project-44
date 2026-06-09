@@ -1,0 +1,42 @@
+{
+  "name": "frontend-project-44",
+  "version": "1.2.0",
+  "description": "Brain Games — обучающие игры в терминале",
+  "main": "bin/brain-games",
+  "bin": {
+    "brain-games": "bin/brain-games",
+    "brain-even": "bin/brain-even",
+    "brain-gcd": "bin/brain-gcd",
+    "brain-progression": "bin/brain-progression",
+    "brain-prime": "bin/brain-prime"
+  },
+  "scripts": {
+    "start": "node bin/brain-games",
+    "brain-games": "node bin/brain-games",
+    "brain-even": "node bin/brain-even",
+    "lint": "npx eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "brain-gcd": "node bin/brain-gcd",
+    "brain-progression": "node bin/brain-progression",
+    "brain-prime": "node bin/brain-prime"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssamandar098-gif/frontend-project-44.git"
+  },
+  "keywords": [
+    "brain-games",
+    "hexlet",
+    "node"
+  ],
+  "author": "Samandar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssamandar098-gif/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/ssamandar098-gif/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
