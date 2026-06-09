@@ -3,15 +3,4 @@
 import { runGame } from '../src/index.js';
 import * as even from '../games/even.js';
 
-// Запускаем игру, но завершаем её после 1 раунда
-process.stdout.write('Welcome to the Brain Games!\n');
-process.stdout.write('May I have your name? Tirion\n');
-process.stdout.write('Hello, Tirion!\n');
-process.stdout.write(even.description + '\n');
-
-let { question, correctAnswer } = even.generateRound();
-process.stdout.write(`Question: ${question}\n`);
-process.stdout.write(`Your answer: ${correctAnswer}\n`);
-process.stdout.write('Correct!\n');
-process.stdout.write(`Congratulations, Tirion!\n`);
-process.exit(0);
+runGame(even);
