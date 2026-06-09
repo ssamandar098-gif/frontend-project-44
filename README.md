@@ -1,7 +1,3 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/ssamandar098-gif/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ssamandar098-gif/frontend-project-44/actions)
-
-
 MARKDOWN
 # Brain Games 🧠
 
@@ -117,10 +113,10 @@ frontend-project-44/
 ├── bin/                 # Исполняемые файлы (точки входа)
 │   ├── brain-games
 │   ├── brain-even
-│   ├── brain-calc
-│   ├── brain-gcd
-│   ├── brain-progression
-│   └── brain-prime
+│   ├── brain-gcd.js
+│   ├── brain-progression.js
+│   ├── brain-prime.js
+│   └── brain-calc.js
 ├── src/
 │   ├── index.js         # Общая логика игр
 │   ├── math.js          # Математические утилиты (НОД, простые числа)
@@ -141,3 +137,23 @@ npm ≥ 9
 ISC
 
 © Samandar, 2026
+
+
+---
+
+## 📌 Что изменено по сравнению с предыдущим
+
+| Что было | Что стало |
+|---------|----------|
+| `bin/brain-gcd`, `bin/brain-prime`, `bin/brain-progression` (без `.js`) | `bin/brain-gcd.js`, `bin/brain-prime.js`, `bin/brain-progression.js` (с `.js`) |
+| `package.json` без `brain-calc` в `bin` | Теперь `brain-calc: "bin/brain-calc.js"` |
+| Не указано, что в `src/` есть `math.js` и `progression.js` | Теперь структура проекта отражает текущее состояние |
+
+---
+
+## ✅ Запуши
+
+```powershell
+git add README.md
+git commit -m "docs: update README.md to match current project state"
+git push
