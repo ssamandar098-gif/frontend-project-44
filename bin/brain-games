@@ -5,3 +5,5 @@ export function greet() {
   console.log(`Hello, ${name}!`);
 }
 greet();
+
+import readlineSync from 'readline-sync'
