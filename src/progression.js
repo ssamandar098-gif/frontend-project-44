@@ -9,7 +9,7 @@ export function progression() {
   const start = randomInt(1, 20);      // начальное число
   const step = randomInt(1, 10);       // шаг прогрессии
   const progression = generateProgression(start, step, length);
-  const hiddenIndex = randomInt(0, length - 1);
+  const hiddenIndex = randomInt(0, length);
   const correctAnswer = progression[hiddenIndex];
   
   progression[hiddenIndex] = '..';
